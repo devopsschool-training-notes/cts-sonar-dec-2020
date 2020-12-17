@@ -187,6 +187,35 @@ https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/
 RUN SCANNER ON THE SOURCE CODE
 ------------------------------------------------------------
 
+===================================================================
+Workflow at SonarQube Server Dashboard
+==============================
+To find issues in the Code
+		- How many issues we have?		- DONE	
+		- What is the issues?			- DONE
+		- Where is the issues?			- DONE
+		- How can i solve it?			- DONE
+		- Who introduce this isues & When?	- DONE
+		- Is it solve or not?			- DONE
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
