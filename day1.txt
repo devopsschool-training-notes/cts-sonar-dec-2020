@@ -169,16 +169,21 @@ Step 3 - Download Sonaqube Server
 Step 4 - Extract and Run it
 
 Step 5 - Validate it
+ip:9000
+==================================================================
+Getting a Source Code
+=====================================
+https://github.com/devopsschool-demo-labs-projects/java-sonarqube-helloworld-src
 
+- Request you to look into - sonar-project.properties
 
+====================================================================
+Getting a Scanner
+https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/
 
-
-
-
-
-
-
-
+============================================================
+RUN SCANNER ON THE SOURCE CODE
+------------------------------------------------------------
 
 
 
