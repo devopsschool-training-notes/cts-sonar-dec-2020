@@ -204,7 +204,12 @@ To find issues in the Code
 How to install SonarQube in Linux?
 =========================================
 Step 1 - Install JAVA
+$ sudo yum list installed
+$ sudo yum list installed | grep java
+$ sudo yum remove <<all java7&8>
 $ yum install java-11-openjdk-devel
+$ systemctl stop firewalld
+$ systemctl disable firewalld
 
 Step 2 - Download and Install and run SonarQube server
 $ yum install wget unzip -y
@@ -228,8 +233,8 @@ Step 4 - Clone git repo
 $ cd 
 $ git clone https://github.com/devopsschool-demo-labs-projects/java-sonarqube-helloworld-src
 $ mv java-sonarqube-helloworld-src src
-### Change Projetname - key if you want it in sonar-project.properties
 $ cd src
+### Change Projetname - key if you want it in sonar-project.properties
 #### RUN a FULL PATH OF SCANNER
 
 
