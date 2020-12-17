@@ -199,6 +199,39 @@ To find issues in the Code
 		- Is it solve or not?			- DONE
 	
 
+=============================================================
+=============================================================
+How to install SonarQube in Linux?
+=========================================
+Step 1 - Install JAVA
+$ yum install java-11-openjdk-devel
+
+Step 2 - Download and Install and run SonarQube server
+$ yum install wget unzip -y
+$ su centos1
+$ cd
+$ wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.4.1.35646.zip
+$ unzip sonarqube-8.4.1.35646.zip
+$ mv sonarqube-8.4.1.35646 sonarqube-server
+$ cd sonarqube-server/bin/linux-x86-64
+$ ./sonar.sh start
+$ ./sonar.sh status
+
+Step 3 - Download and Install Scanner
+$ cd 
+$ wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.5.0.2216-linux.zip
+$ unzip sonar-scanner-cli-4.5.0.2216-linux.zip
+$ cd sonar-scanner-cli-4.5.0.2216-linux/bin
+### Copy a FULL PATH OF SCANNER == Make a FULL PATH OF SCANNER
+
+Step 4 - Clone git repo
+$ cd 
+$ git clone https://github.com/devopsschool-demo-labs-projects/java-sonarqube-helloworld-src
+$ mv java-sonarqube-helloworld-src src
+### Change Projetname - key if you want it in sonar-project.properties
+$ cd src
+#### RUN a FULL PATH OF SCANNER
+
 
 
 
