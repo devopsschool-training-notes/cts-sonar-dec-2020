@@ -163,13 +163,15 @@ Install Sonaqube Server in Windows
 Step 1- https://docs.sonarqube.org/latest/requirements/requirements/
 
 Step 2- Download OpenJDK 11 and Install and SET JAVA_HOME
+URL - https://jdk.java.net/java-se-ri/11
 
 Step 3 - Download Sonaqube Server
+URL - https://www.sonarqube.org/success-download-community-edition/
 
 Step 4 - Extract and Run it
 
 Step 5 - Validate it
-ip:9000
+localhost:9000
 ==================================================================
 Getting a Source Code
 =====================================
