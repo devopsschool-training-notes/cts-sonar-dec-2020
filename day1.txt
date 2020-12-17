@@ -1,0 +1,187 @@
+1234567890
+---------------------
+Rajesh Kumar
+
+-----------------------------
+Start - 9:00 AM 
+End - 6:00 PM
+
+Lunch - 1 - 2PM IST
+Break - 15 mins
+	11 AM
+	4 PM
+-------------------------
+Demo - LAB - 
+================================
+Expec - 
+====================================================	
+
+Why are here?
+-------------
+Dev Software
+	- Quality Software
+	- Release on time == Imm Release
+	- Cost Reduction
+=========================================================================
+				-----------------Internet-----------------
+			Before 2000		2000		Now
+Platform		PHYSICAL 		Vms		Container
+
+Software Model		Waterfall		Agile	(SRE)	DevOps	 	DevSecOps
+
+Soft Dev dev Arch*	Monolitic		SOA		Microservices
+==========================================================================
+What is DevOps?
+------------------------
+ONE PERSON is DevOps Eng.
+	PLAN + Coding + testing + Ops
+	------------------------------	
+		DevOps
+https://www.devopsschool.com/videos/387/complete-cicd-devops-implementation-from-scratch-using-jenkins-by-devopsschool/
+=================================================
+How can we improve 
+	- Quality Software
+		- Code well
+		- Test well
+	- Cost Reduction
+		- Less technical Debt
+---------------
+100
+	SoftX
+--------------------
+	100 -> 120
+	100+30 --> 120== LOSS 10
+	V1
+		BUGS - 30% - 30
+-------------------------------------
+How can we reduce BUGS in the software?
+---------------------------------------
+		70% bugs is found - coz of Bad Programming
+		30% bug is found  - coz of Missed testing process
+==============================================================
+
+Plan -> Coding -> Analyze -> Build -> UT -> Pack -> Archive -> Deploy2QA -> CC -> 
+----------------------------------------------------------------------------------
+Jira -> Git    -> SonarQube -> Maven -> Junit-Jar-> Artiactory -> Ansible -> Jacoco
+			       Gradle
+			       MsBUild	
+----------------------------------------------------------------------------------
+				Jenkins
+				Azure DevOps	
+
+							IF ALL PASS - Release
+							IF ONE FAILED - REPEAT
+https://www.devopsschool.com/path
+=============================================================
+What is SonarQube?
+--------------------------
+	Quality mgmt tool.
+		Code Analysis Tools
+		Static Code Review
+		Code Review tools
+		Dashboard for Code Quality
+	Written in Java
+	From SonarSource
+	Release
+		Community - DEMO
+		Developer
+		Enterprice
+	Version
+		8.X
+
+	Tool	
+		Saving cost
+		Saving time
+		Imp Quality
+
+	mgmt
+
+	Quality
+		Code Quality
+			Peer Code Review
+			Static Code Review - Code would do a Code Review
+			--- SonarQube 
+		Test Quality
+	-----------------------------
+	SonarQube is tool to manage Code Quality and Test Quality 	
+
+Static Code Review - Code would do a Code Review
+----------------------------------------------
+List of tools for static code analysis
+https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis
+
+Architecutre of SonarQube
+----------------------------------
+SonarQube Server
+	WEB			- JAVA 
+		Dashboard
+			Issues
+			Rules	= Comes from STATIC CODE Ana*
+			Gates
+			Profile
+			Admin
+	DATABASE
+		ANY RDBMS - 
+			Trial - h2
+			MSSQL - ORACLE - DERBY - PS
+	
+	Site Search - ElasticSearch
+------------------------------------
+Scanner	
+	AKA Agent
+	AKA Broker
+	- in JAVA
+	jar file
+----------------------------------
+Source Code
+	--- Support is upto 24 Programming Lang
+
+============================================================
+RUN SCANNER ON THE SOURCE CODE
+------------------------------------------------------------
+
+Step 1 - Install Sonaqube Server
+Step 2 - Getting a Source Code
+Step 3 - Getting a Scanner
+		--------------
+		============================================================
+		RUN SCANNER ON THE SOURCE CODE
+		- Manual
+		- Maven + Gradle + MsBuild
+		- Jenkins + Azure DevOps
+		--------------------------------------
+		Dashboard
+			Issues
+			Rules	= Comes from STATIC CODE Ana*
+			Gates
+			Profile
+			Admin
+
+
+Install Sonaqube Server in Windows
+=======================================
+Step 1- https://docs.sonarqube.org/latest/requirements/requirements/
+
+Step 2- Download OpenJDK 11 and Install and SET JAVA_HOME
+
+Step 3 - Download Sonaqube Server
+
+Step 4 - Extract and Run it
+
+Step 5 - Validate it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
