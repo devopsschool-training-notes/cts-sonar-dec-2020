@@ -109,9 +109,14 @@ SonarQube with MsBuild Project
 =======================================
 Step 1 - Download and Install JAVA(JDK) and set JAVA_HOME		DONE
 Step 2 - .NET Framework v4.6+
-Step 3 - Build Tools for Visual Studio 2017
-Step 4 - .NET Core 2.0
+https://www.microsoft.com/en-us/download/details.aspx?id=48137
 
+Step 3 - Build Tools for Visual Studio 2017
+https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15
+
+Step 4 - .NET Core 2.0
+https://dotnet.microsoft.com/download/dotnet-core/2.0'
+Windows 64 BIT
 
 
 
