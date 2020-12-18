@@ -106,7 +106,60 @@ MSBuild
 ==============================================
 =================================
 SonarQube with MsBuild Project
+
+"SonarQube with MSBuild" to "SonarScanner for .NET"
 =======================================
+OPTIONS
+----------------------------------
+.NET 5	or
+.NET Core Global Tool or
+.NET Core 2.0+ or
+.NET Framework 4.6+ or	== As Part of Demo
+As per your setup, Download "SonarScanner for .NET" 
+
+Step 1 - Download "SonarScanner for .NET" prefer* for .NET Framework 4.6+ or
+
+Step 2 - Set msBuild.exe in the Path
+	-- Read xml file
+	-- .sln
+		Target such build, rebuild, clean	
+		------
+	Step 1 - C:\Windows\Microsoft.NET\Framework64\v4.0.30319 INTO PATH
+
+Step 3 - "SonarScanner for .NET"
+For
+- Command Line MSBuild
+- Jenkins with MSBuild
+- Azure DevOps
+
+Step 4 - Download and Install JAVA(JDK) and set JAVA_HOME
+
+Step 5 - Download SDK corresponding to your build system
+
+https://www.microsoft.com/fr-fr/download/details.aspx?id=53344
+https://www.visualstudio.com/downloads/
+https://go.microsoft.com/fwlink/?LinkId=615458
+
+Step 6 - In the Step1, Zip file which you downloaded that need to be extract and change SonarQubeAnalysys.xml and do following changes.
+- SonarQube Server Address
+- SonarQube User Name
+- SonarQube Password
+
+Step 7 - Copy a FULL path of SonarScanner.MSBuild.exe which is inside a extracted location of "SonarScanner for .NET"
+
+Step 8 - Download a Sample Project
+
+Step 9 - Run a following commands
+SonarScanner.MSBuild.exe begin /k:"project-key" /d:sonar.login="myAuthenticationToken" 
+MSBuild.exe <path to solution.sln> /t:Rebuild
+SonarScanner.MSBuild.exe end /d:sonar.login="myAuthenticationToken"
+
+
+
+
+
+
+
 Step 1 - Download and Install JAVA(JDK) and set JAVA_HOME		DONE
 Step 2 - .NET Framework v4.6+
 https://www.microsoft.com/en-us/download/details.aspx?id=48137
