@@ -1,9 +1,9 @@
 SonarQube
-	- Quality Profile
+	- Quality Profile		DONE
 	- Quality Gates
 
 SonarQube with 
-	Maven
+	Maven				DONE
 	Gradle
 	Jenkins
 	MsBuild
@@ -73,6 +73,56 @@ Step 3- Modify setting.xml using following code in setting.xml - Sonar Profile
 Step 4- Generate Token 
 
 Step 5- Run a command
+==========================================================================
+Quality profile
+=================================================================
+- Quality Gates 
+=================================================================
+- Release Mangaer
+- Architect
+- Quality HEAD
+=================================================================
+Sonarqube with Jenkins
+=================================================================
+Step 1 - Install - Config - Run Jenkins
+	- JAVA Based
+	- JAVA
+	- WEB - 8080
+
+Step 2 - Config SonarQube Server in Jenkins Config
+
+Step 3 - Set Scanner tools in Jenkins Tools Setting.
+
+Step 4 - Create a Job in Jenkins with following SPEC
+		- CODE
+		- SCANNER
+		
+Step 5 - RUN IT
+
+================================================================
+Gradle
+================================================================
+MSBuild
+==============================================
+=================================
+SonarQube with MsBuild Project
+=======================================
+Step 1 - Download and Install JAVA(JDK) and set JAVA_HOME		DONE
+Step 2 - .NET Framework v4.6+
+Step 3 - Build Tools for Visual Studio 2017
+Step 4 - .NET Core 2.0
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
