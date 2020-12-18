@@ -1,0 +1,64 @@
+SonarQube
+	- Quality Profile
+	- Quality Gates
+
+SonarQube with 
+	Maven
+	Gradle
+	Jenkins
+	MsBuild
+====================================
+SonarQube with Maven?
+=====================================
+What is Maven?
+-------------------------------------
+	- Build automation tool
+		Compiling
+		Unit Testing
+		Package
+		AT
+		Deploy to Nexus
+	Free
+	Open Source
+	For Java Project
+	Dev in JAVA
+-----------------------------------
+How to install Maven?
+Step 1 - Download and Extract to C:/tools/maven a Maven Package
+Step 2 - C:/tools/maven/bin into PATH
+Step 3 - $ mvn -version
+
+-----------------------------------
+How to work with Maven for my project???
+------------------------------------
+Step 1 - Create and Go to c:/tools/maven-proj1
+Step 2 - Open a cmd here and run following command to create a maven project.
+$ mvn archetype:generate -DgroupId=com.devopsschool.software -DartifactId=chat -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+Step 3 - Do you know how to work with maven projects for Managing Project LifeCycle??
+
+HUMAN LIFECYCLE
+-------------------
+BORN -> KID -> TEEN -> YOUNG -> MID -> OLD -> DIE == GOD
+
+Software project LIFECYCLE (Default)
+- https://maven.apache.org/ref/3.6.3/maven-core/lifecycles.html
+https://www.devopsschool.com/videos/
+
+-------------------
+Phases - Compile -> Test -> Package -> Deploy  == Software Enginer
+
+pHases			Goal	
+-------------------------------------------------
+Compile			compile		Plugins - Jar
+Test			test		Plugins - Jar
+Pakage			package		Plugins - Jar
+Deploy			deploy		Plugins - Jar
+
+mvn compile
+mvn test
+mvn package
+mvn deploy
+=======================================================================
+
+
+	
