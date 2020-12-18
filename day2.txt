@@ -59,6 +59,22 @@ mvn test
 mvn package
 mvn deploy
 =======================================================================
+Step 1- Fix Java Version using following code in pom.xml as per image
+-----------------------------------------
+<properties>
+  <maven.compiler.source>1.6</maven.compiler.source>
+  <maven.compiler.target>1.6</maven.compiler.target>
+</properties>
+
+Step 2- Modify setting.xml using following code in setting.xml - Sonar Plugins
+
+Step 3- Modify setting.xml using following code in setting.xml - Sonar Profile
+
+Step 4- Generate Token 
+
+Step 5- Run a command
+
+
 
 
 	
