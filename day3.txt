@@ -1,0 +1,154 @@
+Integration with Azure DevOps		
+SonarQube Setting up with Postgres	
+Integration with JIRA			
+Sonarqube Webhooks
+Sonarqube Notification
+	Who should get an email?
+	How should get an email?	- Admin
+Adding Custom Sonarqube rules
+Sonarqube Backup and Restore
+Sonarqube Upgrade and Migrations
+Cloud Integration
+Working with IDE with SonarQube Lint
+Basic workflow with Sonarqube Owasp
+Sonarqube Plugins development
+============================================
+What is Azure DevOps?
+----------------------
+	CI tools with rich integration with Azure Cloud.
+	such as - jenkins + Cloud + DevOps Services == Azure DevOps
+	- Hosted Solution	 === Part of this training.
+	- Cloud Solution
+
+----------------------
+How to install Azure DevOps [Server] - 2 mins
+============================================
+Step 1 - install Azure DevOps		DONE
+
+Step 2 - Access Azure DevOps		http://localhost - Local username and password
+
+Step 3 - Create Org in Azure DevOps	DONE
+
+Step 4 - Create Project in Azure DevOps		DONE
+
+Step 5 - Install "Sonarque Azure DevOps" plugins 	DONE
+
+Step 6 - Configure "Sonarque Azure DevOps" plugins	DONE
+
+Step 7 - Azure Self Hosted Machine
+
+Step 8 - Create a pipeline and call for SonarQube Scanning.
+
+Step X - RUN a PIPELINE
+		- Azure Cloud Build Server - AZURE Trial
+		- Azure Self Hosted Machine
+
+SonarQube Setting up with Postgres
+=========================================
+Step 1- Install Postgres server
+
+Step 2 - Access Postgres UI and create Database and User and password
+
+Step 3 - Stop SonarQube Server
+
+Step 4 - Modifying sonarqube.proper file and enable Postgres
+
+Step 5 - Start SonarQube Server
+
+Step 6 - Run Any Project Analysis
+
+Step 7 - Access Postgres UI and verify a results in database schema.
+
+=====================================
+Azure DevOps - Paid
+SonarQube for Azure DevOps - FREE
+	BUT
+Some feature of SonarQube with Azure DevOps
+	- Only App for
+		- SonarQube Dev
+		- SonarQube Entr
+
+=================================================================
+Sonarqube Webhooks
+====================================================================
+Adding Custom Sonarqube rules
+==============================================
+- Download from place - 3rd party
+
+How to develop
+- Code for it in JAVA
+	JAVA jar
+- XML based 
+	XPATH
+=======================
+FRAMEWORK
+---------------------
+https://github.com/SonarSource/sonar-java/blob/master/docs/CUSTOM_RULES_101.md
+
+rajesh@devopsschool.com
+
+Example 
+https://github.com/SonarSource/sonar-custom-plugin-example
+https://github.com/SonarSource/sonar-custom-rules-examples
+
+Cloud Integration
+===========================
+SonarQube
+	Jira
+	Jenkins
+	Azure DevOps
+	----
+	ALM
+		github'
+		gitlab
+https://sonarcloud.io/
+===============================================
+Sonarqube Backup and Restore
+=========================================
+Backup 
+===============
+DATBASE -
+	H2 /data
+	PS - pg_dump -U username -W -F t database_name > c:\backup_file.tar
+	MS - 
+	ORA - 
+conf
+
+Ext
+	jars
+================================
+LIVE
+NIGHT
+	- SYNC DB
+	- 
+WEEKLY
+	conf
+	Ext
+
+
+postgres
+Hgdty42s
+
+Sonarqube Upgrade and Migrations
+=========================================
+
+
+Code Coverage
+------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
